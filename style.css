@@ -1,0 +1,131 @@
+body{
+    background-image: url(Images/PinkForest.JPG);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position:top;
+}
+#stretch {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 124px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-shadow: 3px 2px black;
+    position: absolute; 
+    top: 195px; 
+    left: 0px; 
+    width: 100%; 
+}
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 48px;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    background-color: transparent;
+    text-shadow: 3px 2px black;
+    position: absolute;
+    top: 320px;
+    left: 0px;
+    width: 100%;
+}
+p.none {border-style: none;
+}
+.sidenav {
+    width: 100%;
+}
+.sidenav {
+    text-align: justify;
+    margin: 0;
+    border-style: none;
+    color: whitesmoke;
+    display: block;
+    padding: 8px 16px;
+    background-color: transparent;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-shadow: 3px 2px black;
+    font-size: 32px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+    overflow-x: hidden;
+    transition: 0.5s;
+    z-index: 1;
+    top: 15px;
+    left: 0;
+    text-decoration: none;
+}
+.sidenav a {
+    float: center;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    background-color: transparent;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 32px;
+    margin-left: 0;
+}
+.sidenav a.active {
+    background-color: transparent;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.container {
+    position: relative;
+}
+.topleft {
+    position: relative;
+    top: 15px;
+}
+.leftnav{
+    text-align: left;
+    color: whitesmoke;
+    display: block;
+    font-size: 32px; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    letter-spacing: 0px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    text-shadow: 3px 2px black;
+    position: sticky; 
+    top: 15px; 
+    left: 0px; 
+    width: 100%;
+    text-decoration: none;
+}
+.main {
+  margin-left: 200px;
+}
